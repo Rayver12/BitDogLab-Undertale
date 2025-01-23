@@ -106,7 +106,7 @@ void core0_main() {
             //printf("Nota %d: %d Hz\n", i + 1, notas[i]);
             // Acende o LED enquanto o buzzer está tocando
             gpio_put(LED_PIN, 1);
-            sleep_ms(tempo[i]);  // Mantém o LED aceso durante a duração da nota
+            sleep_ms(tempo[i]/20);  // Mantém o LED aceso durante a duração da nota
             gpio_put(LED_PIN, 0);
             sleep_ms(pausa[i]/20);  // Pausa entre as notas, com o LED apagado
         }
