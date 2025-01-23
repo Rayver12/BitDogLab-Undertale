@@ -11,7 +11,7 @@
 #include "inc/ssd1306.h"
 #include "hardware/i2c.h"
 // Vetores de notas musicais (frequências) e durações (em ms)
-int notas[] = {
+int notas[] = { // notas musicais
 293, 293, 587, 440, 415, 392, 349, 293, 
 349, 392, 261, 261, 587, 440, 415, 392, 
 349, 293, 349, 392, 246, 246, 587, 440, 
@@ -23,9 +23,9 @@ int notas[] = {
 415, 392, 349, 293, 349, 392, 233, 233, 
 587, 440, 415, 392, 349, 293, 349, 392,  
 
-}; // notas musicais
+};  
 
-int tempo[] = {
+int tempo[] = { // duração das notas musicais (em ms)
 140, 122, 248, 368, 256, 242, 251, 121, 
 121, 128, 140, 122, 248, 368, 256, 242, 
 251, 121, 121, 128, 140, 122, 248, 368, 
@@ -37,9 +37,9 @@ int tempo[] = {
 256, 242, 251, 121, 121, 128, 140, 122, 
 248, 368, 256, 242, 251, 121, 121, 128
 
-}; // duração das notas musicais (em ms)
+};
 
-int pausa[] = {
+int pausa[] = { // duração das pausas entre as notas (em ms)
 140, 122, 248, 368, 256, 242, 251, 121, 
 121, 128, 140, 122, 248, 368, 256, 242, 
 251, 121, 121, 128, 140, 122, 248, 368, 
@@ -51,7 +51,7 @@ int pausa[] = {
 256, 242, 251, 121, 121, 128, 140, 122, 
 248, 368, 256, 242, 251, 121, 121, 128
 
-}; // duração das pausas entre as notas (em ms)
+}; 
 
 const uint I2C_SDA = 14;
 const uint I2C_SCL = 15;
@@ -88,9 +88,9 @@ void emitir_som(int pin, int freq, int duracao_ms)
     pwm_set_gpio_level(pin, 0); // Desliga o PWM após a duração da nota
 }
 
-void core0_main() {
-  // Inicializa a comunicação serial (se necessário)
 
+// Código que vai rodar no primeiro núcleo do microcontrolador
+void core0_main() {
     // Inicializa o LED
     gpio_init(LED_PIN);
     gpio_set_dir(LED_PIN, GPIO_OUT);
@@ -112,7 +112,7 @@ void core0_main() {
         }
     }
 }
-
+// função que vai rodar no segundo núcleo do microcontrolador
 void core1_main() {
     // Inicialize a tela OLED
     // Inicialização do i2c
@@ -1252,158 +1252,6 @@ while(true){
     sleep_ms(100);
     ssd1306_draw_bitmap(&ssd_bm, frame_15);
     sleep_ms(100);
-	/*ssd1306_draw_bitmap(&ssd_bm, frame_16);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_17);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_18);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_19);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_20);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_21);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_22);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_23);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_24);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_25);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_26);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_27);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_28);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_29);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_30);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_31);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_32);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_33);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_34);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_35);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_36);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_37);
-    sleep_ms(100);
-    ssd1306_draw_bitmap(&ssd_bm, frame_38);
-    sleep_ms(100);
-    ssd1306_draw_bitmap(&ssd_bm, frame_39);
-    sleep_ms(100);
-    ssd1306_draw_bitmap(&ssd_bm, frame_40);
-    sleep_ms(100);
-    ssd1306_draw_bitmap(&ssd_bm, frame_41);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_42);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_43);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_44);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_45);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_46);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_47);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_48);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_49);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_50);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_51);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_52);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_53);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_54);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_55);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_56);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_57);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_58);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_59);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_60);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_61);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_62);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_63);
-    sleep_ms(100);
-    ssd1306_draw_bitmap(&ssd_bm, frame_64);
-    sleep_ms(100);
-    ssd1306_draw_bitmap(&ssd_bm, frame_65);
-    sleep_ms(100);
-    ssd1306_draw_bitmap(&ssd_bm, frame_66);
-    sleep_ms(100);
-    ssd1306_draw_bitmap(&ssd_bm, frame_67);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_68);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_69);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_70);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_71);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_72);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_73);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_74);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_75);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_76);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_77);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_78);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_79);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_80);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_81);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_82);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_83);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_84);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_85);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_86);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_87);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_88);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_89);
-    sleep_ms(100);
-	ssd1306_draw_bitmap(&ssd_bm, frame_90);
-    sleep_ms(100);*/
-	
-    
 }
 
     while(true) {
