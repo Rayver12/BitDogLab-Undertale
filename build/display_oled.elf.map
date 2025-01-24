@@ -3304,9 +3304,9 @@ Discarded input sections
                 0x00000000        0x8 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_multicore/multicore.c.obj
  .bss.lockout_victim_initialized
                 0x00000000        0x2 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_multicore/multicore.c.obj
- .text          0x00000000        0x0 /tmp/ccBueb1T.o
- .data          0x00000000        0x0 /tmp/ccBueb1T.o
- .bss           0x00000000        0x0 /tmp/ccBueb1T.o
+ .text          0x00000000        0x0 /tmp/ccX2MHjr.o
+ .data          0x00000000        0x0 /tmp/ccX2MHjr.o
+ .bss           0x00000000        0x0 /tmp/ccX2MHjr.o
  .data          0x00000000        0x0 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-strlen-stub.o)
@@ -3589,11 +3589,11 @@ LOAD /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 /tmp/ccBueb1T.o
+ .boot2         0x10000000      0x100 /tmp/ccX2MHjr.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x10000100     0x5bb0
+.text           0x10000100     0x5a88
                 0x10000100                        __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000100       0xd4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -3658,588 +3658,588 @@ LOAD /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.
  .text.frame_dummy
                 0x100002e4       0x24 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
  .text.core1_main
-                0x10000308      0x31c CMakeFiles/display_oled.dir/display_oled.c.obj
+                0x10000308      0x1f4 CMakeFiles/display_oled.dir/display_oled.c.obj
                 0x10000308                core1_main
  .text.configurar_buzzer
-                0x10000624       0x60 CMakeFiles/display_oled.dir/display_oled.c.obj
-                0x10000624                configurar_buzzer
+                0x100004fc       0x60 CMakeFiles/display_oled.dir/display_oled.c.obj
+                0x100004fc                configurar_buzzer
  .text.core0_main
-                0x10000684       0xfc CMakeFiles/display_oled.dir/display_oled.c.obj
-                0x10000684                core0_main
+                0x1000055c       0xfc CMakeFiles/display_oled.dir/display_oled.c.obj
+                0x1000055c                core0_main
  .text.startup.main
-                0x10000780       0x14 CMakeFiles/display_oled.dir/display_oled.c.obj
-                0x10000780                main
+                0x10000658       0x14 CMakeFiles/display_oled.dir/display_oled.c.obj
+                0x10000658                main
  .text.calculate_render_area_buffer_length
-                0x10000794       0x18 CMakeFiles/display_oled.dir/inc/ssd1306_i2c.c.obj
-                0x10000794                calculate_render_area_buffer_length
+                0x1000066c       0x18 CMakeFiles/display_oled.dir/inc/ssd1306_i2c.c.obj
+                0x1000066c                calculate_render_area_buffer_length
  .text.ssd1306_init
-                0x100007ac       0x58 CMakeFiles/display_oled.dir/inc/ssd1306_i2c.c.obj
-                0x100007ac                ssd1306_init
+                0x10000684       0x58 CMakeFiles/display_oled.dir/inc/ssd1306_i2c.c.obj
+                0x10000684                ssd1306_init
  .text.render_on_display
-                0x10000804       0x98 CMakeFiles/display_oled.dir/inc/ssd1306_i2c.c.obj
-                0x10000804                render_on_display
+                0x100006dc       0x98 CMakeFiles/display_oled.dir/inc/ssd1306_i2c.c.obj
+                0x100006dc                render_on_display
  .text.ssd1306_config
-                0x1000089c      0x1d0 CMakeFiles/display_oled.dir/inc/ssd1306_i2c.c.obj
-                0x1000089c                ssd1306_config
+                0x10000774      0x1d0 CMakeFiles/display_oled.dir/inc/ssd1306_i2c.c.obj
+                0x10000774                ssd1306_config
  .text.ssd1306_init_bm
-                0x10000a6c       0x34 CMakeFiles/display_oled.dir/inc/ssd1306_i2c.c.obj
-                0x10000a6c                ssd1306_init_bm
+                0x10000944       0x34 CMakeFiles/display_oled.dir/inc/ssd1306_i2c.c.obj
+                0x10000944                ssd1306_init_bm
  .text.ssd1306_send_data
-                0x10000aa0       0x8c CMakeFiles/display_oled.dir/inc/ssd1306_i2c.c.obj
-                0x10000aa0                ssd1306_send_data
+                0x10000978       0x8c CMakeFiles/display_oled.dir/inc/ssd1306_i2c.c.obj
+                0x10000978                ssd1306_send_data
  .text.ssd1306_draw_bitmap
-                0x10000b2c       0x24 CMakeFiles/display_oled.dir/inc/ssd1306_i2c.c.obj
-                0x10000b2c                ssd1306_draw_bitmap
+                0x10000a04       0x24 CMakeFiles/display_oled.dir/inc/ssd1306_i2c.c.obj
+                0x10000a04                ssd1306_draw_bitmap
  .text.gpio_set_function
-                0x10000b50       0x30 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000b50                gpio_set_function
+                0x10000a28       0x30 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000a28                gpio_set_function
  .text.gpio_set_pulls
-                0x10000b80       0x24 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000b80                gpio_set_pulls
+                0x10000a58       0x24 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000a58                gpio_set_pulls
  .text.gpio_init
-                0x10000ba4       0x3c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000ba4                gpio_init
+                0x10000a7c       0x3c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000a7c                gpio_init
  .text.running_on_fpga
-                0x10000be0       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_platform/platform.c.obj
-                0x10000be0                running_on_fpga
+                0x10000ab8       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_platform/platform.c.obj
+                0x10000ab8                running_on_fpga
  .text.hw_claim_or_assert
-                0x10000bf0       0x44 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_claim/claim.c.obj
-                0x10000bf0                hw_claim_or_assert
+                0x10000ac8       0x44 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000ac8                hw_claim_or_assert
  .text.hw_claim_unused_from_range
-                0x10000c34       0x9c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_claim/claim.c.obj
-                0x10000c34                hw_claim_unused_from_range
+                0x10000b0c       0x9c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000b0c                hw_claim_unused_from_range
  .text.spin_locks_reset
-                0x10000cd0       0x1c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000cd0                spin_locks_reset
+                0x10000ba8       0x1c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000ba8                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x10000cec       0x18 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000cec                next_striped_spin_lock_num
+                0x10000bc4       0x18 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000bc4                next_striped_spin_lock_num
  .text.spin_lock_claim_unused
-                0x10000d04       0x24 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000d04                spin_lock_claim_unused
+                0x10000bdc       0x24 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000bdc                spin_lock_claim_unused
  .text.irq_set_enabled
-                0x10000d28       0x24 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000d28                irq_set_enabled
+                0x10000c00       0x24 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000c00                irq_set_enabled
  .text.irq_is_enabled
-                0x10000d4c       0x18 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000d4c                irq_is_enabled
+                0x10000c24       0x18 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000c24                irq_is_enabled
  .text.irq_set_pending
-                0x10000d64       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000d64                irq_set_pending
+                0x10000c3c       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000c3c                irq_set_pending
  .text.irq_has_shared_handler
-                0x10000d74       0x2c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000d74                irq_has_shared_handler
+                0x10000c4c       0x2c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000c4c                irq_has_shared_handler
  .text.irq_get_vtable_handler
-                0x10000da0       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000da0                irq_get_vtable_handler
+                0x10000c78       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000c78                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x10000db0       0x54 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000db0                irq_set_exclusive_handler
+                0x10000c88       0x54 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000c88                irq_set_exclusive_handler
  .text.irq_add_shared_handler
-                0x10000e04      0x1f4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000e04                irq_add_shared_handler
+                0x10000cdc      0x1f4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000cdc                irq_add_shared_handler
  .text.irq_remove_handler
-                0x10000ff8      0x1c4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000ff8                irq_remove_handler
+                0x10000ed0      0x1c4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000ed0                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x100011bc       0xb4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
-                0x100011bc                irq_add_tail_to_free_list
+                0x10001094       0xb4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001094                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x10001270       0x24 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001270                irq_init_priorities
+                0x10001148       0x24 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001148                irq_init_priorities
  .text.user_irq_claim_unused
-                0x10001294       0x2c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001294                user_irq_claim_unused
+                0x1000116c       0x2c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000116c                user_irq_claim_unused
  .text.lock_init
-                0x100012c0       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_sync/lock_core.c.obj
-                0x100012c0                lock_init
+                0x10001198       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_sync/lock_core.c.obj
+                0x10001198                lock_init
  .text.mutex_init
-                0x100012d0       0x1c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_sync/mutex.c.obj
-                0x100012d0                mutex_init
+                0x100011a8       0x1c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_sync/mutex.c.obj
+                0x100011a8                mutex_init
  .text.recursive_mutex_init
-                0x100012ec       0x1c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_sync/mutex.c.obj
-                0x100012ec                recursive_mutex_init
+                0x100011c4       0x1c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_sync/mutex.c.obj
+                0x100011c4                recursive_mutex_init
  .text.critical_section_init
-                0x10001308       0x1c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_sync/critical_section.c.obj
-                0x10001308                critical_section_init
+                0x100011e0       0x1c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_sync/critical_section.c.obj
+                0x100011e0                critical_section_init
  .text.critical_section_init_with_lock_num
-                0x10001324       0x14 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_sync/critical_section.c.obj
-                0x10001324                critical_section_init_with_lock_num
+                0x100011fc       0x14 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_sync/critical_section.c.obj
+                0x100011fc                critical_section_init_with_lock_num
  .text.timer_pool_entry_comparator
-                0x10001338       0x34 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
-                0x10001338                timer_pool_entry_comparator
+                0x10001210       0x34 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
+                0x10001210                timer_pool_entry_comparator
  .text.sleep_until_callback
-                0x1000136c       0x30 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
+                0x10001244       0x30 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock.isra.0
-                0x1000139c      0x100 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
+                0x10001274      0x100 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x1000149c      0x1c0 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
+                0x10001374      0x1c0 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x1000165c       0x6c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
-                0x1000165c                alarm_pool_init_default
+                0x10001534       0x6c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
+                0x10001534                alarm_pool_init_default
  .text.alarm_pool_get_default
-                0x100016c8        0x8 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
-                0x100016c8                alarm_pool_get_default
+                0x100015a0        0x8 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
+                0x100015a0                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x100016d0      0x17c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
-                0x100016d0                alarm_pool_add_alarm_at
+                0x100015a8      0x17c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
+                0x100015a8                alarm_pool_add_alarm_at
  .text.alarm_pool_core_num
-                0x1000184c        0x4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
-                0x1000184c                alarm_pool_core_num
+                0x10001724        0x4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
+                0x10001724                alarm_pool_core_num
  .text.sleep_until
-                0x10001850       0xc4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
-                0x10001850                sleep_until
+                0x10001728       0xc4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
+                0x10001728                sleep_until
  .text.sleep_ms
-                0x10001914       0x38 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
-                0x10001914                sleep_ms
+                0x100017ec       0x38 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
+                0x100017ec                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x1000194c       0xcc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
-                0x1000194c                best_effort_wfe_or_timeout
+                0x10001824       0xcc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
+                0x10001824                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x10001a18       0xbc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
+                0x100018f0       0xbc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x10001ad4       0x18 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001ad4                hardware_alarm_claim
+                0x100019ac       0x18 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
+                0x100019ac                hardware_alarm_claim
  .text.time_us_64
-                0x10001aec       0x14 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001aec                time_us_64
+                0x100019c4       0x14 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
+                0x100019c4                time_us_64
  .text.busy_wait_until
-                0x10001b00       0x20 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001b00                busy_wait_until
+                0x100019d8       0x20 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
+                0x100019d8                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x10001b20       0x8c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001b20                hardware_alarm_set_callback
+                0x100019f8       0x8c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
+                0x100019f8                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x10001bac       0xd0 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001bac                hardware_alarm_set_target
+                0x10001a84       0xd0 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001a84                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x10001c7c       0x3c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001c7c                hardware_alarm_cancel
+                0x10001b54       0x3c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001b54                hardware_alarm_cancel
  .text.ph_merge_nodes
-                0x10001cb8       0x58 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_util/pheap.c.obj
+                0x10001b90       0x58 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x10001d10       0x3c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_util/pheap.c.obj
-                0x10001d10                ph_post_alloc_init
+                0x10001be8       0x3c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_util/pheap.c.obj
+                0x10001be8                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x10001d4c       0x8c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_util/pheap.c.obj
-                0x10001d4c                ph_merge_two_pass
+                0x10001c24       0x8c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_util/pheap.c.obj
+                0x10001c24                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x10001dd8      0x100 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_util/pheap.c.obj
+                0x10001cb0      0x100 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x10001ed8      0x104 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_util/pheap.c.obj
-                0x10001ed8                ph_remove_head
+                0x10001db0      0x104 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_util/pheap.c.obj
+                0x10001db0                ph_remove_head
  .text.ph_remove_and_free_node
-                0x10001fdc       0x78 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_util/pheap.c.obj
-                0x10001fdc                ph_remove_and_free_node
+                0x10001eb4       0x78 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/common/pico_util/pheap.c.obj
+                0x10001eb4                ph_remove_and_free_node
  .text.clocks_init
-                0x10002054      0x2c8 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10002054                clocks_init
+                0x10001f2c      0x2c8 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001f2c                clocks_init
  .text.clock_get_hz
-                0x1000231c        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x1000231c                clock_get_hz
+                0x100021f4        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x100021f4                clock_get_hz
  .text.pll_init
-                0x10002328       0xa4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_pll/pll.c.obj
-                0x10002328                pll_init
+                0x10002200       0xa4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_pll/pll.c.obj
+                0x10002200                pll_init
  .text.watchdog_start_tick
-                0x100023cc       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x100023cc                watchdog_start_tick
+                0x100022a4       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x100022a4                watchdog_start_tick
  .text.watchdog_reboot
-                0x100023dc       0x9c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x100023dc                watchdog_reboot
+                0x100022b4       0x9c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x100022b4                watchdog_reboot
  .text.xosc_init
-                0x10002478       0x28 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x10002478                xosc_init
+                0x10002350       0x28 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x10002350                xosc_init
  .text.runtime_init
-                0x100024a0       0xf0 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100024a0                runtime_init
- .text._exit    0x10002590        0x4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002590                _exit
- .text._sbrk    0x10002594       0x34 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002594                _sbrk
- .text.exit     0x100025c8        0x8 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100025c8                exit
- .text.panic    0x100025d0       0x30 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100025d0                panic
+                0x10002378       0xf0 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002378                runtime_init
+ .text._exit    0x10002468        0x4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002468                _exit
+ .text._sbrk    0x1000246c       0x34 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
+                0x1000246c                _sbrk
+ .text.exit     0x100024a0        0x8 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100024a0                exit
+ .text.panic    0x100024a8       0x30 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100024a8                panic
  .text.hard_assertion_failure
-                0x10002600        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002600                hard_assertion_failure
+                0x100024d8        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100024d8                hard_assertion_failure
  .text._out_char
-                0x1000260c       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_printf/printf.c.obj
+                0x100024e4       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_printf/printf.c.obj
  .text.weak_raw_vprintf
-                0x1000261c       0x30 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_printf/printf.c.obj
-                0x1000261c                weak_raw_vprintf
- .text          0x1000264c       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x100024f4       0x30 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_printf/printf.c.obj
+                0x100024f4                weak_raw_vprintf
+ .text          0x10002524       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x1000265c       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x1000265c                rom_func_lookup
+                0x10002534       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10002534                rom_func_lookup
  .text.rom_data_lookup
-                0x1000266c       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x1000266c                rom_data_lookup
+                0x10002544       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10002544                rom_data_lookup
  .text.rom_funcs_lookup
-                0x1000267c       0x44 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x1000267c                rom_funcs_lookup
+                0x10002554       0x44 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10002554                rom_funcs_lookup
  .text.__wrap___aeabi_idiv
-                0x100026c0       0x50 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_divider/divider.S.obj
-                0x100026c0                __wrap___aeabi_idivmod
-                0x100026c0                divmod_s32s32
-                0x100026c0                div_s32s32
-                0x100026c0                __wrap___aeabi_idiv
-                0x100026c8                divmod_s32s32_unsafe
-                0x100026f4                divmod_s32s32_savestate
+                0x10002598       0x50 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_divider/divider.S.obj
+                0x10002598                __wrap___aeabi_idivmod
+                0x10002598                divmod_s32s32
+                0x10002598                div_s32s32
+                0x10002598                __wrap___aeabi_idiv
+                0x100025a0                divmod_s32s32_unsafe
+                0x100025cc                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x10002710       0x4c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_divider/divider.S.obj
-                0x10002710                __wrap___aeabi_uidiv
-                0x10002710                __wrap___aeabi_uidivmod
-                0x10002710                div_u32u32
-                0x10002710                divmod_u32u32
-                0x10002718                divmod_u32u32_unsafe
-                0x10002740                divmod_u32u32_savestate
+                0x100025e8       0x4c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_divider/divider.S.obj
+                0x100025e8                __wrap___aeabi_uidiv
+                0x100025e8                __wrap___aeabi_uidivmod
+                0x100025e8                div_u32u32
+                0x100025e8                divmod_u32u32
+                0x100025f0                divmod_u32u32_unsafe
+                0x10002618                divmod_u32u32_savestate
  .text.missing_double_func_shim
-                0x1000275c        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10002634        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_init_rom.c.obj
  .text.__aeabi_double_init
-                0x10002768       0x94 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x10002768                __aeabi_double_init
+                0x10002640       0x94 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10002640                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x100027fc       0x2c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100027fc                double_table_shim_on_use_helper
+                0x100026d4       0x2c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100026d4                double_table_shim_on_use_helper
  .text.__aeabi_lmul
-                0x10002828       0x32 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x10002828                __wrap___aeabi_lmul
- *fill*         0x1000285a        0x2 
+                0x10002700       0x32 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x10002700                __wrap___aeabi_lmul
+ *fill*         0x10002732        0x2 
  .text.__wrap___aeabi_farithmetic
-                0x1000285c       0x48 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x1000285c                __wrap___aeabi_frsub
-                0x10002862                __wrap___aeabi_fsub
-                0x10002868                __wrap___aeabi_fadd
-                0x1000286e                __wrap___aeabi_fdiv
-                0x10002896                __wrap___aeabi_fmul
+                0x10002734       0x48 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x10002734                __wrap___aeabi_frsub
+                0x1000273a                __wrap___aeabi_fsub
+                0x10002740                __wrap___aeabi_fadd
+                0x10002746                __wrap___aeabi_fdiv
+                0x1000276e                __wrap___aeabi_fmul
  .text.__wrap___aeabi_ui2f
-                0x100028a4        0xa CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x100028a4                __wrap___aeabi_ui2f
- *fill*         0x100028ae        0x2 
+                0x1000277c        0xa CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x1000277c                __wrap___aeabi_ui2f
+ *fill*         0x10002786        0x2 
  .text.__wrap___aeabi_i2f
-                0x100028b0       0x44 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x100028b0                __wrap___aeabi_i2f
+                0x10002788       0x44 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x10002788                __wrap___aeabi_i2f
  .text.__wrap___aeabi_f2uiz
-                0x100028f4        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x100028f4                __wrap___aeabi_f2uiz
+                0x100027cc        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x100027cc                __wrap___aeabi_f2uiz
  .text.missing_float_func_shim
-                0x10002900        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x100027d8        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_init_rom.c.obj
  .text.__aeabi_float_init
-                0x1000290c       0x5c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x1000290c                __aeabi_float_init
+                0x100027e4       0x5c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x100027e4                __aeabi_float_init
  .text.__wrap_malloc
-                0x10002968       0x3c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_malloc/pico_malloc.c.obj
-                0x10002968                __wrap_malloc
+                0x10002840       0x3c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_malloc/pico_malloc.c.obj
+                0x10002840                __wrap_malloc
  .text.__wrap_calloc
-                0x100029a4       0x40 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_malloc/pico_malloc.c.obj
-                0x100029a4                __wrap_calloc
+                0x1000287c       0x40 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_malloc/pico_malloc.c.obj
+                0x1000287c                __wrap_calloc
  .text.__wrap_free
-                0x100029e4       0x20 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_malloc/pico_malloc.c.obj
-                0x100029e4                __wrap_free
- .text          0x10002a04       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10002a04                __aeabi_mem_init
- .text.memset   0x10002a14        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10002a14                __wrap_memset
- .text.memcpy   0x10002a20        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10002a20                __wrap___aeabi_memcpy
-                0x10002a20                __wrap_memcpy
+                0x100028bc       0x20 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_malloc/pico_malloc.c.obj
+                0x100028bc                __wrap_free
+ .text          0x100028dc       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x100028dc                __aeabi_mem_init
+ .text.memset   0x100028ec        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x100028ec                __wrap_memset
+ .text.memcpy   0x100028f8        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x100028f8                __wrap___aeabi_memcpy
+                0x100028f8                __wrap_memcpy
  .text.stdio_out_chars_crlf
-                0x10002a2c       0x94 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10002904       0x94 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x10002ac0       0x98 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10002ac0                __wrap_putchar
+                0x10002998       0x98 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10002998                __wrap_putchar
  .text.__wrap_puts
-                0x10002b58       0xe0 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10002b58                __wrap_puts
+                0x10002a30       0xe0 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10002a30                __wrap_puts
  .text.stdio_set_driver_enabled
-                0x10002c38       0x30 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10002c38                stdio_set_driver_enabled
+                0x10002b10       0x30 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10002b10                stdio_set_driver_enabled
  .text.stdio_init_all
-                0x10002c68        0x8 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10002c68                stdio_init_all
+                0x10002b40        0x8 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10002b40                stdio_init_all
  .text.resetd_init
-                0x10002c70        0x4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10002b48        0x4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_reset
-                0x10002c74        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10002b4c        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_open
-                0x10002c80       0x28 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10002b58       0x28 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_xfer_cb
-                0x10002ca8        0x4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10002b80        0x4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_control_xfer_cb
-                0x10002cac       0x60 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10002b84       0x60 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.usbd_app_driver_get_cb
-                0x10002d0c        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x10002d0c                usbd_app_driver_get_cb
+                0x10002be4        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10002be4                usbd_app_driver_get_cb
  .text.tud_cdc_line_coding_cb
-                0x10002d18       0x34 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x10002d18                tud_cdc_line_coding_cb
+                0x10002bf0       0x34 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10002bf0                tud_cdc_line_coding_cb
  .text.stdio_usb_set_chars_available_callback
-                0x10002d4c       0x14 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10002d4c                stdio_usb_set_chars_available_callback
- .text.usb_irq  0x10002d60       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10002c24       0x14 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10002c24                stdio_usb_set_chars_available_callback
+ .text.usb_irq  0x10002c38       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.timer_task
-                0x10002d70       0x54 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10002c48       0x54 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.stdio_usb_in_chars
-                0x10002dc4       0x90 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10002dc4                stdio_usb_in_chars
+                0x10002c9c       0x90 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10002c9c                stdio_usb_in_chars
  .text.stdio_usb_out_chars
-                0x10002e54      0x104 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10002d2c      0x104 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.low_priority_worker_irq
-                0x10002f58       0xa8 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10002e30       0xa8 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.tud_cdc_rx_cb
-                0x10003000       0x20 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10003000                tud_cdc_rx_cb
+                0x10002ed8       0x20 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10002ed8                tud_cdc_rx_cb
  .text.stdio_usb_init
-                0x10003020       0xe0 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10003020                stdio_usb_init
+                0x10002ef8       0xe0 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10002ef8                stdio_usb_init
  .text.tud_descriptor_device_cb
-                0x10003100        0x8 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x10003100                tud_descriptor_device_cb
+                0x10002fd8        0x8 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10002fd8                tud_descriptor_device_cb
  .text.tud_descriptor_configuration_cb
-                0x10003108        0x8 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x10003108                tud_descriptor_configuration_cb
+                0x10002fe0        0x8 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10002fe0                tud_descriptor_configuration_cb
  .text.tud_descriptor_string_cb
-                0x10003110       0x78 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x10003110                tud_descriptor_string_cb
+                0x10002fe8       0x78 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10002fe8                tud_descriptor_string_cb
  .text.startup._retrieve_unique_id_on_boot
-                0x10003188       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x10003060       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_unique_id/unique_id.c.obj
  .text.pico_get_unique_board_id_string
-                0x10003198      0x1a8 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_unique_id/unique_id.c.obj
-                0x10003198                pico_get_unique_board_id_string
+                0x10003070      0x1a8 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x10003070                pico_get_unique_board_id_string
  .text.flash_get_unique_id
-                0x10003340       0x3c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_flash/flash.c.obj
-                0x10003340                flash_get_unique_id
+                0x10003218       0x3c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_flash/flash.c.obj
+                0x10003218                flash_get_unique_id
  .text.dcd_int_enable
-                0x1000337c        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x1000337c                dcd_int_enable
+                0x10003254        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10003254                dcd_int_enable
  .text.dcd_set_address
-                0x10003388       0x14 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10003388                dcd_set_address
+                0x10003260       0x14 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10003260                dcd_set_address
  .text.dcd_connect
-                0x1000339c       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x1000339c                dcd_connect
+                0x10003274       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10003274                dcd_connect
  .text.dcd_init
-                0x100033ac       0x98 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100033ac                dcd_init
+                0x10003284       0x98 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10003284                dcd_init
  .text.dcd_edpt0_status_complete
-                0x10003444       0x1c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10003444                dcd_edpt0_status_complete
+                0x1000331c       0x1c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x1000331c                dcd_edpt0_status_complete
  .text.dcd_edpt_open
-                0x10003460      0x108 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10003460                dcd_edpt_open
+                0x10003338      0x108 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10003338                dcd_edpt_open
  .text.dcd_edpt_close_all
-                0x10003568        0x8 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10003568                dcd_edpt_close_all
+                0x10003440        0x8 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10003440                dcd_edpt_close_all
  .text.dcd_edpt_xfer
-                0x10003570       0x24 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10003570                dcd_edpt_xfer
+                0x10003448       0x24 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10003448                dcd_edpt_xfer
  .text.dcd_edpt_stall
-                0x10003594       0x34 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10003594                dcd_edpt_stall
+                0x1000346c       0x34 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x1000346c                dcd_edpt_stall
  .text.dcd_edpt_clear_stall
-                0x100035c8       0x30 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100035c8                dcd_edpt_clear_stall
+                0x100034a0       0x30 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x100034a0                dcd_edpt_clear_stall
  .text.rp2040_usb_init
-                0x100035f8       0x4c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x100035f8                rp2040_usb_init
+                0x100034d0       0x4c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x100034d0                rp2040_usb_init
  .text.hw_endpoint_xfer_start
-                0x10003644       0x40 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x10003644                hw_endpoint_xfer_start
+                0x1000351c       0x40 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x1000351c                hw_endpoint_xfer_start
  .text.tud_mounted
-                0x10003684       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
-                0x10003684                tud_mounted
+                0x1000355c       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
+                0x1000355c                tud_mounted
  .text.tud_suspended
-                0x10003694       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
-                0x10003694                tud_suspended
+                0x1000356c       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
+                0x1000356c                tud_suspended
  .text.tud_inited
-                0x100036a4       0x14 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
-                0x100036a4                tud_inited
+                0x1000357c       0x14 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
+                0x1000357c                tud_inited
  .text.tud_init
-                0x100036b8       0xdc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
-                0x100036b8                tud_init
+                0x10003590       0xdc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
+                0x10003590                tud_init
  .text.tud_task_ext
-                0x10003794      0x850 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
-                0x10003794                tud_task_ext
+                0x1000366c      0x850 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
+                0x1000366c                tud_task_ext
  .text.usbd_open_edpt_pair
-                0x10003fe4       0x9c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
-                0x10003fe4                usbd_open_edpt_pair
+                0x10003ebc       0x9c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
+                0x10003ebc                usbd_open_edpt_pair
  .text.usbd_defer_func
-                0x10004080       0x48 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
-                0x10004080                usbd_defer_func
+                0x10003f58       0x48 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
+                0x10003f58                usbd_defer_func
  .text.usbd_edpt_open
-                0x100040c8       0x34 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
-                0x100040c8                usbd_edpt_open
+                0x10003fa0       0x34 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
+                0x10003fa0                usbd_edpt_open
  .text.usbd_edpt_claim
-                0x100040fc       0x28 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
-                0x100040fc                usbd_edpt_claim
+                0x10003fd4       0x28 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
+                0x10003fd4                usbd_edpt_claim
  .text.usbd_edpt_release
-                0x10004124       0x28 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
-                0x10004124                usbd_edpt_release
+                0x10003ffc       0x28 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
+                0x10003ffc                usbd_edpt_release
  .text.usbd_edpt_xfer
-                0x1000414c       0x4c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
-                0x1000414c                usbd_edpt_xfer
+                0x10004024       0x4c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
+                0x10004024                usbd_edpt_xfer
  .text.tud_control_status
-                0x10004198       0x2c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10004198                tud_control_status
+                0x10004070       0x2c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10004070                tud_control_status
  .text.tud_control_xfer
-                0x100041c4       0xac CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd_control.c.obj
-                0x100041c4                tud_control_xfer
+                0x1000409c       0xac CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd_control.c.obj
+                0x1000409c                tud_control_xfer
  .text.usbd_control_reset
-                0x10004270       0x14 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10004270                usbd_control_reset
+                0x10004148       0x14 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10004148                usbd_control_reset
  .text.usbd_control_set_complete_callback
-                0x10004284        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10004284                usbd_control_set_complete_callback
+                0x1000415c        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd_control.c.obj
+                0x1000415c                usbd_control_set_complete_callback
  .text.usbd_control_set_request
-                0x10004290       0x1c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10004290                usbd_control_set_request
+                0x10004168       0x1c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10004168                usbd_control_set_request
  .text.usbd_control_xfer_cb
-                0x100042ac       0xf4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd_control.c.obj
-                0x100042ac                usbd_control_xfer_cb
+                0x10004184       0xf4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10004184                usbd_control_xfer_cb
  .text.tud_cdc_n_connected
-                0x100043a0       0x30 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x100043a0                tud_cdc_n_connected
+                0x10004278       0x30 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10004278                tud_cdc_n_connected
  .text.tud_cdc_n_available
-                0x100043d0       0x18 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x100043d0                tud_cdc_n_available
+                0x100042a8       0x18 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x100042a8                tud_cdc_n_available
  .text.tud_cdc_n_read
-                0x100043e8       0x70 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x100043e8                tud_cdc_n_read
+                0x100042c0       0x70 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x100042c0                tud_cdc_n_read
  .text.tud_cdc_n_write_flush
-                0x10004458       0x78 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004458                tud_cdc_n_write_flush
+                0x10004330       0x78 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10004330                tud_cdc_n_write_flush
  .text.tud_cdc_n_write
-                0x100044d0       0x34 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x100044d0                tud_cdc_n_write
+                0x100043a8       0x34 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x100043a8                tud_cdc_n_write
  .text.tud_cdc_n_write_available
-                0x10004504       0x18 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004504                tud_cdc_n_write_available
+                0x100043dc       0x18 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x100043dc                tud_cdc_n_write_available
  .text.cdcd_init
-                0x1000451c       0x7c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x1000451c                cdcd_init
+                0x100043f4       0x7c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x100043f4                cdcd_init
  .text.cdcd_reset
-                0x10004598       0x2c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004598                cdcd_reset
+                0x10004470       0x2c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10004470                cdcd_reset
  .text.cdcd_open
-                0x100045c4       0xe4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x100045c4                cdcd_open
+                0x1000449c       0xe4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x1000449c                cdcd_open
  .text.cdcd_control_xfer_cb
-                0x100046a8       0xe4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x100046a8                cdcd_control_xfer_cb
+                0x10004580       0xe4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10004580                cdcd_control_xfer_cb
  .text.cdcd_xfer_cb
-                0x1000478c      0x13c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x1000478c                cdcd_xfer_cb
+                0x10004664      0x13c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10004664                cdcd_xfer_cb
  .text.tusb_init
-                0x100048c8        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/tusb.c.obj
-                0x100048c8                tusb_init
+                0x100047a0        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/tusb.c.obj
+                0x100047a0                tusb_init
  .text.tusb_inited
-                0x100048d4        0x8 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/tusb.c.obj
-                0x100048d4                tusb_inited
+                0x100047ac        0x8 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/tusb.c.obj
+                0x100047ac                tusb_inited
  .text.tu_edpt_claim
-                0x100048dc       0x50 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/tusb.c.obj
-                0x100048dc                tu_edpt_claim
+                0x100047b4       0x50 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/tusb.c.obj
+                0x100047b4                tu_edpt_claim
  .text.tu_edpt_release
-                0x1000492c       0x38 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/tusb.c.obj
-                0x1000492c                tu_edpt_release
+                0x10004804       0x38 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/tusb.c.obj
+                0x10004804                tu_edpt_release
  .text.tu_edpt_validate
-                0x10004964       0x7c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/tusb.c.obj
-                0x10004964                tu_edpt_validate
+                0x1000483c       0x7c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/tusb.c.obj
+                0x1000483c                tu_edpt_validate
  .text.tu_edpt_bind_driver
-                0x100049e0       0x34 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/tusb.c.obj
-                0x100049e0                tu_edpt_bind_driver
+                0x100048b8       0x34 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/tusb.c.obj
+                0x100048b8                tu_edpt_bind_driver
  .text.tu_fifo_config
-                0x10004a14       0x6c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10004a14                tu_fifo_config
+                0x100048ec       0x6c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x100048ec                tu_fifo_config
  .text.tu_fifo_count
-                0x10004a80       0x2c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10004a80                tu_fifo_count
+                0x10004958       0x2c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10004958                tu_fifo_count
  .text.tu_fifo_empty
-                0x10004aac       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10004aac                tu_fifo_empty
+                0x10004984       0x10 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10004984                tu_fifo_empty
  .text.tu_fifo_remaining
-                0x10004abc       0x2c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10004abc                tu_fifo_remaining
+                0x10004994       0x2c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10004994                tu_fifo_remaining
  .text.tu_fifo_read
-                0x10004ae8       0x9c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10004ae8                tu_fifo_read
+                0x100049c0       0x9c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x100049c0                tu_fifo_read
  .text.tu_fifo_read_n
-                0x10004b84       0xe8 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10004b84                tu_fifo_read_n
+                0x10004a5c       0xe8 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10004a5c                tu_fifo_read_n
  .text.tu_fifo_write
-                0x10004c6c       0xa8 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10004c6c                tu_fifo_write
+                0x10004b44       0xa8 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10004b44                tu_fifo_write
  .text.tu_fifo_write_n
-                0x10004d14      0x178 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10004d14                tu_fifo_write_n
+                0x10004bec      0x178 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10004bec                tu_fifo_write_n
  .text.tu_fifo_clear
-                0x10004e8c       0x40 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10004e8c                tu_fifo_clear
+                0x10004d64       0x40 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10004d64                tu_fifo_clear
  .text.tu_fifo_set_overwritable
-                0x10004ecc       0x48 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10004ecc                tu_fifo_set_overwritable
+                0x10004da4       0x48 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10004da4                tu_fifo_set_overwritable
  .text.i2c_set_baudrate
-                0x10004f14       0xc4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x10004f14                i2c_set_baudrate
+                0x10004dec       0xc4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x10004dec                i2c_set_baudrate
  .text.i2c_init
-                0x10004fd8       0x50 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x10004fd8                i2c_init
+                0x10004eb0       0x50 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x10004eb0                i2c_init
  .text.i2c_write_blocking
-                0x10005028       0xd0 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x10005028                i2c_write_blocking
+                0x10004f00       0xd0 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x10004f00                i2c_write_blocking
  .text.core1_trampoline
-                0x100050f8        0x4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_multicore/multicore.c.obj
+                0x10004fd0        0x4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_multicore/multicore.c.obj
  .text.core1_wrapper
-                0x100050fc        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_multicore/multicore.c.obj
-                0x100050fc                core1_wrapper
+                0x10004fd4        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_multicore/multicore.c.obj
+                0x10004fd4                core1_wrapper
  .text.multicore_launch_core1_raw
-                0x10005108       0x84 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_multicore/multicore.c.obj
-                0x10005108                multicore_launch_core1_raw
+                0x10004fe0       0x84 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_multicore/multicore.c.obj
+                0x10004fe0                multicore_launch_core1_raw
  .text.multicore_launch_core1
-                0x1000518c       0x58 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_multicore/multicore.c.obj
-                0x1000518c                multicore_launch_core1
- .text.strlen   0x100051e4       0x5c /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-strlen-stub.o)
-                0x100051e4                strlen
- .text.malloc   0x10005240       0x14 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-malloc.o)
-                0x10005240                malloc
- .text.free     0x10005254       0x14 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-malloc.o)
-                0x10005254                free
+                0x10005064       0x58 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_multicore/multicore.c.obj
+                0x10005064                multicore_launch_core1
+ .text.strlen   0x100050bc       0x5c /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-strlen-stub.o)
+                0x100050bc                strlen
+ .text.malloc   0x10005118       0x14 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-malloc.o)
+                0x10005118                malloc
+ .text.free     0x1000512c       0x14 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-malloc.o)
+                0x1000512c                free
  .text._malloc_r
-                0x10005268      0x5c4 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-mallocr.o)
-                0x10005268                _malloc_r
- .text._sbrk_r  0x1000582c       0x24 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-sbrkr.o)
-                0x1000582c                _sbrk_r
+                0x10005140      0x5c4 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-mallocr.o)
+                0x10005140                _malloc_r
+ .text._sbrk_r  0x10005704       0x24 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-sbrkr.o)
+                0x10005704                _sbrk_r
  .text.__malloc_lock
-                0x10005850       0x10 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-mlock.o)
-                0x10005850                __malloc_lock
+                0x10005728       0x10 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-mlock.o)
+                0x10005728                __malloc_lock
  .text.__malloc_unlock
-                0x10005860       0x10 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-mlock.o)
-                0x10005860                __malloc_unlock
- .text.calloc   0x10005870       0x18 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-calloc.o)
-                0x10005870                calloc
+                0x10005738       0x10 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-mlock.o)
+                0x10005738                __malloc_unlock
+ .text.calloc   0x10005748       0x18 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-calloc.o)
+                0x10005748                calloc
  .text._calloc_r
-                0x10005888       0xa8 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-callocr.o)
-                0x10005888                _calloc_r
+                0x10005760       0xa8 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-callocr.o)
+                0x10005760                _calloc_r
  .text.__retarget_lock_acquire_recursive
-                0x10005930        0x4 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-lock.o)
-                0x10005930                __retarget_lock_acquire_recursive
+                0x10005808        0x4 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-lock.o)
+                0x10005808                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x10005934        0x4 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-lock.o)
-                0x10005934                __retarget_lock_release_recursive
- .text.sysconf  0x10005938       0x1c /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-sysconf.o)
-                0x10005938                sysconf
+                0x1000580c        0x4 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-lock.o)
+                0x1000580c                __retarget_lock_release_recursive
+ .text.sysconf  0x10005810       0x1c /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-sysconf.o)
+                0x10005810                sysconf
  .text._malloc_trim_r
-                0x10005954       0xb4 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-freer.o)
-                0x10005954                _malloc_trim_r
- .text._free_r  0x10005a08      0x1d4 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-freer.o)
-                0x10005a08                _free_r
- .text.__errno  0x10005bdc        0xc /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-errno.o)
-                0x10005bdc                __errno
+                0x1000582c       0xb4 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-freer.o)
+                0x1000582c                _malloc_trim_r
+ .text._free_r  0x100058e0      0x1d4 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-freer.o)
+                0x100058e0                _free_r
+ .text.__errno  0x10005ab4        0xc /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-errno.o)
+                0x10005ab4                __errno
  *(.fini)
- .fini          0x10005be8        0x4 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crti.o
-                0x10005be8                _fini
- *fill*         0x10005bec        0x4 
- .fini.__stub   0x10005bf0       0xc0 linker stubs
+ .fini          0x10005ac0        0x4 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crti.o
+                0x10005ac0                _fini
+ *fill*         0x10005ac4        0x4 
+ .fini.__stub   0x10005ac8       0xc0 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -4251,123 +4251,170 @@ LOAD /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x10005cb0        0x0 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x10005cb0                        . = ALIGN (0x4)
+ .eh_frame      0x10005b88        0x0 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x10005b88                        . = ALIGN (0x4)
 
-.glue_7         0x10005cb0        0x0
- .glue_7        0x10005cb0        0x0 linker stubs
+.glue_7         0x10005b88        0x0
+ .glue_7        0x10005b88        0x0 linker stubs
 
-.glue_7t        0x10005cb0        0x0
- .glue_7t       0x10005cb0        0x0 linker stubs
+.glue_7t        0x10005b88        0x0
+ .glue_7t       0x10005b88        0x0 linker stubs
 
-.vfp11_veneer   0x10005cb0        0x0
- .vfp11_veneer  0x10005cb0        0x0 linker stubs
+.vfp11_veneer   0x10005b88        0x0
+ .vfp11_veneer  0x10005b88        0x0 linker stubs
 
-.v4_bx          0x10005cb0        0x0
- .v4_bx         0x10005cb0        0x0 linker stubs
+.v4_bx          0x10005b88        0x0
+ .v4_bx         0x10005b88        0x0 linker stubs
 
-.iplt           0x10005cb0        0x0
- .iplt          0x10005cb0        0x0 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x10005b88        0x0
+ .iplt          0x10005b88        0x0 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x10005cb0     0x432c
+.rodata         0x10005b88     0x432c
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
- .rodata        0x10005cb0     0x4000 CMakeFiles/display_oled.dir/display_oled.c.obj
- .rodata        0x10009cb0       0x1a CMakeFiles/display_oled.dir/inc/ssd1306_i2c.c.obj
- *fill*         0x10009cca        0x2 
+ .rodata.frame_15
+                0x10005b88      0x400 CMakeFiles/display_oled.dir/display_oled.c.obj
+                0x10005b88                frame_15
+ .rodata.frame_14
+                0x10005f88      0x400 CMakeFiles/display_oled.dir/display_oled.c.obj
+                0x10005f88                frame_14
+ .rodata.frame_13
+                0x10006388      0x400 CMakeFiles/display_oled.dir/display_oled.c.obj
+                0x10006388                frame_13
+ .rodata.frame_12
+                0x10006788      0x400 CMakeFiles/display_oled.dir/display_oled.c.obj
+                0x10006788                frame_12
+ .rodata.frame_11
+                0x10006b88      0x400 CMakeFiles/display_oled.dir/display_oled.c.obj
+                0x10006b88                frame_11
+ .rodata.frame_10
+                0x10006f88      0x400 CMakeFiles/display_oled.dir/display_oled.c.obj
+                0x10006f88                frame_10
+ .rodata.frame_09
+                0x10007388      0x400 CMakeFiles/display_oled.dir/display_oled.c.obj
+                0x10007388                frame_09
+ .rodata.frame_08
+                0x10007788      0x400 CMakeFiles/display_oled.dir/display_oled.c.obj
+                0x10007788                frame_08
+ .rodata.frame_07
+                0x10007b88      0x400 CMakeFiles/display_oled.dir/display_oled.c.obj
+                0x10007b88                frame_07
+ .rodata.frame_06
+                0x10007f88      0x400 CMakeFiles/display_oled.dir/display_oled.c.obj
+                0x10007f88                frame_06
+ .rodata.frame_05
+                0x10008388      0x400 CMakeFiles/display_oled.dir/display_oled.c.obj
+                0x10008388                frame_05
+ .rodata.frame_04
+                0x10008788      0x400 CMakeFiles/display_oled.dir/display_oled.c.obj
+                0x10008788                frame_04
+ .rodata.frame_03
+                0x10008b88      0x400 CMakeFiles/display_oled.dir/display_oled.c.obj
+                0x10008b88                frame_03
+ .rodata.frame_02
+                0x10008f88      0x400 CMakeFiles/display_oled.dir/display_oled.c.obj
+                0x10008f88                frame_02
+ .rodata.frame_01
+                0x10009388      0x400 CMakeFiles/display_oled.dir/display_oled.c.obj
+                0x10009388                frame_01
+ .rodata.frame_00
+                0x10009788      0x400 CMakeFiles/display_oled.dir/display_oled.c.obj
+                0x10009788                frame_00
+ .rodata        0x10009b88       0x1a CMakeFiles/display_oled.dir/inc/ssd1306_i2c.c.obj
+ *fill*         0x10009ba2        0x2 
  .rodata.spin_lock_claim_unused.str1.4
-                0x10009ccc      0x193 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_sync/sync.c.obj
+                0x10009ba4      0x193 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_sync/sync.c.obj
                                  0x1b (size before relaxing)
  .rodata.user_irq_claim_unused.str1.4
-                0x10009e5f       0x1b CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x10009d37       0x1b CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.hardware_alarm_claim.str1.4
-                0x10009e5f       0x22 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
+                0x10009d37       0x22 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
  .rodata.panic.str1.4
-                0x10009e5f       0x12 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10009d37       0x12 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.hard_assertion_failure.str1.4
-                0x10009e5f        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10009d37        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.missing_double_func_shim.str1.4
-                0x10009e5f       0x18 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10009d37       0x18 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_init_rom.c.obj
  .rodata.missing_float_func_shim.str1.4
-                0x10009e5f        0x1 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10009d37        0x1 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_init_rom.c.obj
  .rodata.__wrap_malloc.str1.4
-                0x10009e5f        0xe CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_malloc/pico_malloc.c.obj
+                0x10009d37        0xe CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .rodata.str1.4
-                0x10009e5f       0x48 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
- *fill*         0x10009e5f        0x1 
+                0x10009d37       0x48 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
+ *fill*         0x10009d37        0x1 
  .rodata.__bi_81
-                0x10009e60        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10009d38        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x10009e6c        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10009d44        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_56
-                0x10009e78        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10009d50        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x10009e84        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10009d5c        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x10009e90        0x2 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x10009e92        0x2 
+                0x10009d68        0x2 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x10009d6a        0x2 
  .rodata._resetd_driver
-                0x10009e94       0x18 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10009d6c       0x18 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .rodata.str1.4
-                0x10009eac       0x13 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10009d84       0x13 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.__bi_182.0
-                0x10009eac        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10009d84        0xc CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.str1.4
-                0x10009eb8       0x2a CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10009d90       0x2a CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_str
-                0x10009eb8       0x18 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10009d90       0x18 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_cfg
-                0x10009ed0       0x54 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10009da8       0x54 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_device
-                0x10009f24       0x12 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10009dfc       0x12 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.str1.4
-                0x10009f36       0x14 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10009e0e       0x14 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata.str1.4
-                0x10009f36       0x53 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x10009f36        0x2 
+                0x10009e0e       0x53 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x10009e0e        0x2 
  .rodata.tud_task_ext
-                0x10009f38       0x8c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
+                0x10009e10       0x8c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
  .rodata._usbd_driver
-                0x10009fc4       0x18 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
-                0x10009fdc                        . = ALIGN (0x4)
+                0x10009e9c       0x18 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
+                0x10009eb4                        . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x10009fdc                        . = ALIGN (0x4)
+                0x10009eb4                        . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x10009fdc                        __exidx_start = .
+                0x10009eb4                        __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x10009fdc                        __exidx_end = .
-                0x10009fdc                        . = ALIGN (0x4)
-                0x10009fdc                        __binary_info_start = .
+                0x10009eb4                        __exidx_end = .
+                0x10009eb4                        . = ALIGN (0x4)
+                0x10009eb4                        __binary_info_start = .
 
-.binary_info    0x10009fdc       0x24
+.binary_info    0x10009eb4       0x24
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr81
-                0x10009fdc        0x4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10009eb4        0x4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x10009fe0        0x4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10009eb8        0x4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr56
-                0x10009fe4        0x4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10009ebc        0x4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x10009fe8        0x4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10009ec0        0x4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x10009fec        0x4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10009ec4        0x4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x10009ff0        0x4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10009ec8        0x4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x10009ff4        0x4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10009ecc        0x4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr22
-                0x10009ff8        0x4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10009ed0        0x4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr182
-                0x10009ffc        0x4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x1000a000                        __binary_info_end = .
+                0x10009ed4        0x4 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10009ed8                        __binary_info_end = .
 
-.rel.dyn        0x1000a000        0x0
- .rel.iplt      0x1000a000        0x0 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x1000a000                        . = ALIGN (0x4)
+.rel.dyn        0x10009ed8        0x0
+ .rel.iplt      0x10009ed8        0x0 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x10009ed8                        . = ALIGN (0x4)
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -4376,7 +4423,7 @@ LOAD /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.
                 0x20000000       0xc0 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
                 0x20000000                ram_vector_table
 
-.data           0x200000c0     0x17a0 load address 0x1000a000
+.data           0x200000c0     0x17a0 load address 0x10009ed8
                 0x200000c0                        __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -4541,36 +4588,36 @@ LOAD /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.
  *(.jcr)
                 0x20001860                        . = ALIGN (0x4)
                 0x20001860                        __data_end__ = .
-                0x1000a000                        __etext = LOADADDR (.data)
+                0x10009ed8                        __etext = LOADADDR (.data)
 
 .tm_clone_table
-                0x20001860        0x0 load address 0x1000b7a0
+                0x20001860        0x0 load address 0x1000b678
  .tm_clone_table
                 0x20001860        0x0 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x20001860        0x0 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x20001860        0x0 load address 0x1000b7a0
+.igot.plt       0x20001860        0x0 load address 0x1000b678
  .igot.plt      0x20001860        0x0 /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x20001860        0x0 load address 0x1000b7a0
+                0x20001860        0x0 load address 0x1000b678
                 0x20001860                        . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x20040000        0x0 load address 0x1000b7a0
+.scratch_x      0x20040000        0x0 load address 0x1000b678
                 0x20040000                        __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                        . = ALIGN (0x4)
                 0x20040000                        __scratch_x_end__ = .
-                0x1000b7a0                        __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x1000b678                        __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x1000b7a0
+.scratch_y      0x20041000        0x0 load address 0x1000b678
                 0x20041000                        __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                        . = ALIGN (0x4)
                 0x20041000                        __scratch_y_end__ = .
-                0x1000b7a0                        __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x1000b678                        __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x20001860      0xefc
                 0x20001860                        . = ALIGN (0x4)
@@ -4710,8 +4757,8 @@ LOAD /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x1000b7a0        0x0
-                0x1000b7a0                        PROVIDE (__flash_binary_end = .)
+.flash_end      0x1000b678        0x0
+                0x1000b678                        PROVIDE (__flash_binary_end = .)
                 0x20040000                        __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                        __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                        __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -4896,7 +4943,7 @@ LOAD CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/
 LOAD CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
 LOAD CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_i2c/i2c.c.obj
 LOAD CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_multicore/multicore.c.obj
-LOAD /tmp/ccBueb1T.o
+LOAD /tmp/ccX2MHjr.o
 LOAD /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -5016,7 +5063,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000804       0x2c CMakeFiles/display_oled.dir/home/rafael/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_multicore/multicore.c.obj
  .ARM.attributes
-                0x00000830       0x22 /tmp/ccBueb1T.o
+                0x00000830       0x22 /tmp/ccX2MHjr.o
  .ARM.attributes
                 0x00000852       0x1e /home/rafael/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
