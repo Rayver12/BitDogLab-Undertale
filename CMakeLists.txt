@@ -55,8 +55,7 @@ target_include_directories(display_oled PRIVATE
 
 # Add any user requested libraries
 target_link_libraries(
-    display_oled pico_cyw43_arch_lwip_threadsafe_background hardware_pwm hardware_i2c hardware_clocks pico_multicore pico_stdlib
-        
+    display_oled  hardware_pwm hardware_i2c hardware_clocks pico_multicore pico_stdlib
         )
 
 pico_add_extra_outputs(display_oled)

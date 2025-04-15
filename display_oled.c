@@ -14,11 +14,11 @@
 #include "frames.h"
 
 // Pinos do display OLED
-const uint I2C_SDA = 14; 
+const uint I2C_SDA = 14;
 const uint I2C_SCL = 15;
 
-const uint LED_PIN = 13;    // Pino do LED 
-const uint BUZZER_PIN = 21;  // Pino do buzzer 
+const uint LED_PIN = 13;    // Pino do LED
+const uint BUZZER_PIN = 21; // Pino do buzzer
 
 // Função para configuração do Buzzer
 void configurar_buzzer(int pin)
@@ -36,23 +36,22 @@ void ajustar_frequencia(int pin, int freq)
 {
     uint slice_num = pwm_gpio_to_slice_num(pin);
     uint32_t clock_div = clock_get_hz(clk_sys) / (freq * 5000);
-    pwm_set_wrap(slice_num, 5000 - 1);  // Ajusta o wrap para o valor adequado para a frequência
-    pwm_set_clkdiv(slice_num, clock_div);  // Configura o divisor de clock com base na frequência
+    pwm_set_wrap(slice_num, 5000 - 1);    // Ajusta o wrap para o valor adequado para a frequência
+    pwm_set_clkdiv(slice_num, clock_div); // Configura o divisor de clock com base na frequência
 }
 
 // Função responsável por emitir o som no pino escolhido
 void emitir_som(int pin, int freq, int duracao_ms)
 {
     ajustar_frequencia(pin, freq); // Ajusta a frequência
-    pwm_set_gpio_level(pin, 2500); // Ativa o PWM com um nível de duty cycle (volume)
-    sleep_ms(duracao_ms); // Toca a nota pelo tempo determinado
-    pwm_set_gpio_level(pin, 0); // Desliga o PWM após a duração da nota
+    pwm_set_gpio_level(pin, 45);   // Ativa o PWM com um nível de duty cycle (volume)
+    sleep_ms(duracao_ms);          // Toca a nota pelo tempo determinado
+    pwm_set_gpio_level(pin, 0);    // Desliga o PWM após a duração da nota
 }
 
-
-
 // Código que vai rodar no primeiro núcleo do microcontrolador
-void core0_main() {
+void core0_main()
+{
     // Inicializa o LED
     gpio_init(LED_PIN);
     gpio_set_dir(LED_PIN, GPIO_OUT);
@@ -61,22 +60,25 @@ void core0_main() {
     configurar_buzzer(BUZZER_PIN);
 
     // Loop para tocar a música
-	// Notas, tempo e pausa definidos em musica.h
-    while (true) {
-        for (int i = 0; i < sizeof(notas) / sizeof(notas[0]); i++) {
+    // Notas, tempo e pausa definidos em musica.h
+    while (true)
+    {
+        for (int i = 0; i < sizeof(notas) / sizeof(notas[0]); i++)
+        {
             // Toca a nota correspondente no buzzer
             emitir_som(BUZZER_PIN, notas[i], tempo[i]);
-            //printf("Nota %d: %d Hz\n", i + 1, notas[i]);
-            // Acende o LED enquanto o buzzer está tocando
+            // printf("Nota %d: %d Hz\n", i + 1, notas[i]);
+            //  Acende o LED enquanto o buzzer está tocando
             gpio_put(LED_PIN, 1);
-            sleep_ms(tempo[i]/20);  // Mantém o LED aceso durante a duração da nota
+            sleep_ms(tempo[i] / 15); // Mantém o LED aceso durante a duração da nota
             gpio_put(LED_PIN, 0);
-            sleep_ms(pausa[i]/20);  // Pausa entre as notas, com o LED apagado
+            sleep_ms(pausa[i] / 15); // Pausa entre as notas, com o LED apagado
         }
     }
 }
 // função que vai rodar no segundo núcleo do microcontrolador
-void core1_main() {
+void core1_main()
+{
     // Inicialize a tela OLED
     // Inicialização do i2c
     i2c_init(i2c1, ssd1306_i2c_clock * 1000);
@@ -105,61 +107,64 @@ void core1_main() {
 
 restart:
 
-
     ssd1306_t ssd_bm;
     ssd1306_init_bm(&ssd_bm, 128, 64, false, 0x3C, i2c1);
     ssd1306_config(&ssd_bm);
 
+    // Loop para imprimir o gif no display (bitmaps no arquivo frames.h)
 
-// Loop para imprimir o gif no display (bitmaps no arquivo frames.h)
+    while (true)
+    {
+        ssd1306_draw_bitmap(&ssd_bm, frame_00);
+        sleep_ms(70);
+        ssd1306_draw_bitmap(&ssd_bm, frame_01);
+        sleep_ms(70);
+        ssd1306_draw_bitmap(&ssd_bm, frame_02);
+        sleep_ms(70);
+        ssd1306_draw_bitmap(&ssd_bm, frame_03);
+        sleep_ms(70);
+        ssd1306_draw_bitmap(&ssd_bm, frame_04);
+        sleep_ms(70);
+        ssd1306_draw_bitmap(&ssd_bm, frame_05);
+        sleep_ms(70);
+        ssd1306_draw_bitmap(&ssd_bm, frame_06);
+        sleep_ms(70);
+        ssd1306_draw_bitmap(&ssd_bm, frame_07);
+        sleep_ms(70);
+        ssd1306_draw_bitmap(&ssd_bm, frame_08);
+        sleep_ms(70);
+        ssd1306_draw_bitmap(&ssd_bm, frame_09);
+        sleep_ms(70);
+        ssd1306_draw_bitmap(&ssd_bm, frame_10);
+        sleep_ms(70);
+        ssd1306_draw_bitmap(&ssd_bm, frame_11);
+        sleep_ms(70);
+        ssd1306_draw_bitmap(&ssd_bm, frame_12);
+        sleep_ms(70);
+        ssd1306_draw_bitmap(&ssd_bm, frame_13);
+        sleep_ms(70);
+        ssd1306_draw_bitmap(&ssd_bm, frame_14);
+        sleep_ms(70);
+        ssd1306_draw_bitmap(&ssd_bm, frame_15);
+        sleep_ms(70);
+    }
 
-while(true){
-    ssd1306_draw_bitmap(&ssd_bm, frame_00);
-    sleep_ms(70);
-    ssd1306_draw_bitmap(&ssd_bm, frame_01);
-    sleep_ms(70);
-    ssd1306_draw_bitmap(&ssd_bm, frame_02);
-    sleep_ms(70);
-    ssd1306_draw_bitmap(&ssd_bm, frame_03);
-    sleep_ms(70);
-    ssd1306_draw_bitmap(&ssd_bm, frame_04);
-    sleep_ms(70);
-    ssd1306_draw_bitmap(&ssd_bm, frame_05);
-    sleep_ms(70);
-    ssd1306_draw_bitmap(&ssd_bm, frame_06);
-    sleep_ms(70);
-    ssd1306_draw_bitmap(&ssd_bm, frame_07);
-    sleep_ms(70);
-    ssd1306_draw_bitmap(&ssd_bm, frame_08);
-    sleep_ms(70);
-    ssd1306_draw_bitmap(&ssd_bm, frame_09);
-    sleep_ms(70);
-    ssd1306_draw_bitmap(&ssd_bm, frame_10);
-    sleep_ms(70);
-    ssd1306_draw_bitmap(&ssd_bm, frame_11);
-    sleep_ms(70);
-    ssd1306_draw_bitmap(&ssd_bm, frame_12);
-    sleep_ms(70);
-    ssd1306_draw_bitmap(&ssd_bm, frame_13);
-    sleep_ms(70);
-    ssd1306_draw_bitmap(&ssd_bm, frame_14);
-    sleep_ms(70);
-    ssd1306_draw_bitmap(&ssd_bm, frame_15);
-    sleep_ms(70);
-}
-
-    while(true) {
+    while (true)
+    {
         sleep_ms(1000);
     };
 }
 
-int main() {
-    stdio_init_all();  // Inicializa comunicação serial (opcional)
+int main()
+{
+    stdio_init_all(); // Inicializa comunicação serial (opcional)
+    sleep_ms(1000);
+    printf("Undertale - Megalovania");
 
-    // Lança o núcleo 1 para tocar música e piscar o LED
+    // Executa a exibição do GIF no núcleo 1
     multicore_launch_core1(core1_main);
 
-    // Executa a exibição do GIF no núcleo 0
+    // Lança o núcleo 0 para tocar música e piscar o LED
     core0_main();
 
     return 0; // Nunca será alcançado
