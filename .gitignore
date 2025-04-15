@@ -3,4 +3,4 @@ images
 display_oled22.c
 Readme.md
 lwipopts.h
-build/
+build
